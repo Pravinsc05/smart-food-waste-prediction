@@ -1,0 +1,93 @@
+{
+  "model_name": "Random Forest Regressor",
+  "baseline_model_name": "Linear Regression Baseline",
+  "train_samples": 2000,
+  "test_samples": 500,
+  "metrics": {
+    "random_forest": {
+      "mae": 21.64,
+      "rmse": 41.43,
+      "r2_score": 0.8292
+    },
+    "baseline": {
+      "mae": 22.66,
+      "rmse": 40.11,
+      "r2_score": 0.8399
+    },
+    "improvement_percent": 4.5
+  },
+  "hyperparameters": {
+    "n_estimators": 120,
+    "max_depth": 14,
+    "min_samples_split": 4,
+    "min_samples_leaf": 2,
+    "random_state": 42
+  },
+  "feature_columns": {
+    "categorical": [
+      "category",
+      "historical_demand",
+      "seasonality",
+      "day_of_week"
+    ],
+    "numeric": [
+      "stock_quantity",
+      "avg_daily_sales",
+      "days_until_expiry",
+      "selling_price",
+      "cost_price",
+      "freshness_score"
+    ]
+  },
+  "feature_importances": [
+    {
+      "feature": "stock_quantity",
+      "importance": 82.24
+    },
+    {
+      "feature": "avg_daily_sales",
+      "importance": 4.66
+    },
+    {
+      "feature": "days_until_expiry",
+      "importance": 4.47
+    },
+    {
+      "feature": "historical_demand_High",
+      "importance": 1.46
+    },
+    {
+      "feature": "selling_price",
+      "importance": 1.32
+    },
+    {
+      "feature": "freshness_score",
+      "importance": 1.29
+    },
+    {
+      "feature": "cost_price",
+      "importance": 1.01
+    },
+    {
+      "feature": "historical_demand_Low",
+      "importance": 0.84
+    },
+    {
+      "feature": "day_of_week_Sunday",
+      "importance": 0.33
+    },
+    {
+      "feature": "day_of_week_Saturday",
+      "importance": 0.29
+    },
+    {
+      "feature": "category_Dairy",
+      "importance": 0.28
+    },
+    {
+      "feature": "day_of_week_Thursday",
+      "importance": 0.23
+    }
+  ],
+  "last_trained": "2026-10-26 19:02:41"
+}

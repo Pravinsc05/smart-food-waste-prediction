@@ -1,0 +1,13 @@
+product_name,category,stock_quantity,avg_daily_sales,days_until_expiry,selling_price,cost_price,historical_demand,seasonality,day_of_week,freshness_score
+Organic Strawberries,Produce,45,12.0,2,4.99,2.5,Medium,Summer,Friday,45.0
+Artisan Sourdough,Bakery,38,14.0,1,5.5,2.1,High,Fall,Saturday,30.0
+Whole Milk 1L,Dairy,75,22.0,3,2.8,1.7,Medium,Winter,Tuesday,65.0
+Fresh Atlantic Salmon,Meat & Seafood,28,6.5,2,18.99,12.5,Low,Spring,Wednesday,50.0
+Baby Spinach 200g,Produce,50,15.0,1,3.2,1.4,Medium,Spring,Thursday,25.0
+Greek Yogurt 500g,Dairy,40,11.0,5,4.5,2.6,High,Summer,Sunday,75.0
+Butter Croissants 4-Pack,Bakery,30,10.0,1,4.99,1.8,Medium,Winter,Saturday,35.0
+Boneless Chicken Breast,Meat & Seafood,35,9.0,2,9.99,6.2,High,Fall,Friday,55.0
+Rotisserie Chicken,Deli & Prepared,22,12.0,1,8.99,4.5,High,Summer,Sunday,40.0
+Fresh Egg Pasta 250g,Packaged Food,60,10.0,6,3.99,2.1,Medium,Fall,Monday,85.0
+Hass Avocados,Produce,65,18.0,3,1.99,0.95,High,Summer,Saturday,60.0
+Cheddar Cheese Block,Dairy,30,5.0,9,6.5,3.9,Low,Winter,Wednesday,90.0
